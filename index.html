@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My clock</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="display-time" id="display">
+            </div>
+
+            <div class="set-alarm-button">
+                <button id="openPopup" style="width:100%; height: 100%; font-size: 20px; border: none; border-radius: 1.2rem; background: wheat;">Set new alarm</button>
+            </div>
+
+            <div class="alarm-details-container" id="adc">
+
+                <div class="popup" id="popupBox">
+                    <input id="timeInput" style="width:90%; height:60%; font-size: 30px; background-color: transparent; border: none;" type="time">
+                    
+                    <div>
+                        <button id="setNow" style="width:100%; font-size: 20px;">Set now</button>
+                    </div>
+                </div>
+                <div class="over-flow-bar" id="backToPopup" style="overflow:scroll; max-height: 300px;">
+                    <div class="alarm-details">
+                        <!--
+                        <div class="alarm-time">
+                            Time
+                        </div>
+                        <div class="delete-button">
+                            Delete
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
