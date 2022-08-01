@@ -1,0 +1,86 @@
+.main-container{
+    background: linear-gradient(#3b3ba1, blue,#1a2432);
+    position: relative;
+    top: 80px;
+    left: 35%;
+    height: 450px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: white;
+}
+
+.display-time{
+    font-size: 45px;
+    font-weight: bolder;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.set-alarm-button{
+    width: 100%;
+    height: 6%;
+    border-radius: 1.2rem;
+    
+}
+
+.alarm-details-container{
+    width: 100%;
+    height:74%;
+}
+
+.alarm-details{
+    display: flex;
+    margin-top: 2%;
+    max-height: 300px;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.alarm-time{
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+
+    
+}
+
+.delete-button{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #82938d;
+    border-radius: 1.1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.popup{
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+    border-radius: 10%;
+}
+
+
+
+.over-flow-bar::-webkit-scrollbar {
+    display: none; /*for Chrome*/
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: 0px;  /* Firefox */
+}
